@@ -1,0 +1,11 @@
+.dev.vars
+node_modules/
+.DS_Store
+dist
+.wrangler
+.env
+*.log
+coverage
+.vercel
+.turbo
+.next

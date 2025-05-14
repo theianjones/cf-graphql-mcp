@@ -1,0 +1,29 @@
+{
+	"name": "remote-mcp-server-bearer-auth",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"format": "biome format --write",
+		"lint:fix": "biome lint --fix",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.18",
+		"marked": "^15.0.11",
+		"typescript": "^5.8.3",
+		"workers-mcp": "^0.1.0-3",
+		"wrangler": "^4.14.4"
+	},
+	"dependencies": {
+		"@cloudflare/workers-oauth-provider": "^0.0.5",
+		"@modelcontextprotocol/sdk": "^1.11.1",
+		"agents": "^0.0.80",
+		"graphql": "^16.11.0",
+		"hono": "^4.7.9",
+		"zod": "^3.24.4"
+	},
+	"packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
+}
